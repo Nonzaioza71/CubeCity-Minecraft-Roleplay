@@ -1,0 +1,35 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/models/weapons/bottle_glass_half"
+        }
+        ,
+        {
+            "predicate": {
+                "custom_model_data": 1001
+            },
+            "model": "item/models/weapons/baseball_bat"
+        }
+        ,
+        {
+            "predicate": {
+                "custom_model_data": 1002
+            },
+            "model": "item/models/weapons/brass_knuckles"
+        }
+        ,
+        {
+            "predicate": {
+                "custom_model_data": 1003
+            },
+            "model": "item/models/weapons/machate"
+        }
+    ]
+}

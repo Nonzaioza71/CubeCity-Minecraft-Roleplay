@@ -1,0 +1,35 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor_stand"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/models/objectives/public_chair"
+        }
+        ,
+        {
+            "predicate": {
+                "custom_model_data": 1001
+            },
+            "model": "item/models/objectives/public_table"
+        }
+        ,
+        {
+            "predicate": {
+                "custom_model_data": 1002
+            },
+            "model": "item/models/objectives/car_icon"
+        }
+        ,
+        {
+            "predicate": {
+                "custom_model_data": 1003
+            },
+            "model": "item/models/objectives/atm"
+        }
+    ]
+}
